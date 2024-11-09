@@ -889,7 +889,7 @@ body {
   }
 }
 .jobs {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .jobs__container {
@@ -937,7 +937,7 @@ body {
   margin: 30px 0px 40px 30px;
 }
 .jobs__content .jobs__content_view .content-view__item .content-view__body .content-view__name {
-  margin-bottom: 5px;
+  margin: 5px 0px 0px 10px;
 }
 .jobs__content .jobs__content_view .content-view__item .content-view__body .content-view__title {
   margin-bottom: 20px;
@@ -1052,6 +1052,11 @@ body {
   gap: 30px;
   margin-bottom: 140px;
 }
+@media (max-width: 768px) {
+  .resources__items {
+    margin-bottom: 40px;
+  }
+}
 
 .resources__item_img {
   display: block;
@@ -1106,6 +1111,16 @@ body {
   }
 }
 .footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
   text-align: center;
   font-size: 20px;
+  margin-top: 20px;
+}
+.footer a {
+  color: aliceblue;
 }/*# sourceMappingURL=style.css.map */
